@@ -1,5 +1,5 @@
-# Kumpulan Kode Belajar Python
-27-11-2023
+# Kumpulan Kode Belajar Javascript
+Sabtu, ‎30 ‎Oktober ‎2021
 
 # Resource
-- https://pythonbasics.org/#PyQt
+- None
