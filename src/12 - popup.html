@@ -1,0 +1,27 @@
+<script>
+
+/*
+popup yaitu untuk memunculkan dialog kebrowser
+berikut jenis popup yang bisa digunakan
+
+alert		| muncul peringatan
+prompt		| muncul input
+confirm 	| muncul konfirmasi
+*/
+
+alert('acikiwir');
+
+const ase = prompt("masukan nama ?");
+alert(`selamat datang ${ase}`);
+
+const asique = confirm(`konfirmasi apakah ${ase} laki-laki ?`);
+alert(asique);
+
+const thes = confirm("anda akan mengakses situs ini ?");
+if (thes) {
+	const nama = prompt("masukan nama anda :");
+	alert(`selamat datang ${nama}`);
+}else{
+	alert('good bye!');
+}
+</script>

@@ -1,0 +1,28 @@
+<script>
+	/*
+	break = digunakan untuk memberhentikan perulangan
+	continue = digunakan untuk melangkai perulangan ke perulangan selanjutnya 
+	*/
+
+	// break
+	let counter = 1;
+	while(true)
+	{
+		document.writeln(`<p>print ${counter}</p>`);
+		counter++;
+
+		if (counter > 10) {
+			break;
+		}
+	}
+
+	document.writeln(`<br/>`);
+
+	// continue
+	for (var i = 1; i <= 100; i++) {
+		if (i % 2 === 0) {
+			continue;
+		}
+		document.writeln(`<p>print ${i}</p>`);
+	}
+</script>

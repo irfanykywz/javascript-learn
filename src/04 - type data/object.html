@@ -1,0 +1,34 @@
+<script>
+	/*
+	object menyimpan data dengan identitas (key)
+	dan memanggil datanya menggunakan key
+
+	untuk membuat object yaitu dengan kode {} lalu diikuti dengan key dan valuenya
+	*/
+
+	// definisi object
+	const acikiwir = {};
+
+	// add object
+	acikiwir["nama"] = "dilan";
+	acikiwir.umur = 30;
+
+	console.table(acikiwir);
+
+	// delete object
+	delete acikiwir["nama"];
+
+	console.table(acikiwir);
+
+	// definisi object dengan value
+	const awe = {
+		"nama saya": "dilan",
+		umur: 30
+	};
+
+	console.table(awe);
+
+	// membaca object
+	console.info(awe["nama saya"]);
+	console.info(awe.umur);
+</script>
